@@ -1,0 +1,37 @@
+body {
+/*anything here is applied to all child elements, as below
+unless specifically ovewritten. see em example where font has been
+overwritten*/
+    font-family: sans-serif;
+}
+h1, h2 {
+    color      : gray;
+}
+
+h1 {
+    border-bottom: 1px solid black;
+}
+ 
+p {
+       color: maroon;
+}
+
+em {
+    font-family: serif;
+}
+/*apply rule to both classes p and blockquote*/
+.greentea {
+    color: green;
+}
+
+p.raspberry {
+    color:blue;
+}
+
+p.blueberry {
+    color: violet;
+}
+
+p.cranberry {
+    color: brown;
+}
