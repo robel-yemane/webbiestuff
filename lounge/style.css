@@ -1,0 +1,100 @@
+body {
+    /*font-size: small;
+    font-family: Verdana, Helvetica, Arial, sans-serif;*/
+    /*font: font-style font-variant font-weight font-size/line-height
+ * font-family*/
+    font: small/1.6em Verdana, Helvetica, Arial, sans-serif;
+    /*line-height: 1.6em;*/
+}
+
+h1, h2 {
+    color: #007e7e;
+}
+
+h1 {
+    font-size: 150%; # of the parent /*font-size i.e. the body*/
+}
+
+h2 {
+    font-size: 120%
+}
+
+
+#elixirs h2 {
+    color: black;
+}
+
+#elixirs h3 {
+    color: #d12c47;
+}
+#guarantee {
+    line-height:      1.9em;
+    font-style:       italic;
+    font-family:      Georgia, "Times New Roman", Times, serif;
+    color:            #444444;
+    /*border-color:     white;
+    border-width:     1px;
+    border-style:     dashed;*/
+    border: white 1px dashed;
+    padding:          25px;
+    padding-left:     80px;
+    margin:           30px;
+    margin-right:     250px;
+    /*background-color: #a7cece;
+    background-image: url(images/background.gif);
+    background-repeat: no-repeat;*/
+    /*background-position: top left;*/
+    background: #a7cece url(images/background.gif) no-repeat top left ;
+}
+
+
+#elixirs {
+    line-height: 1; /*= 1 x of 120% x small(12px) = 14 px*/
+    /*border-width: thin ;
+    border-style: solid;
+    border-color: #007e7e;*/
+    border: thin solid #007e7e;
+    width: 200px;
+    /*padding-right:  20px;
+    padding-bottom: 20px;
+    padding-left:   20px;*/
+    padding: 0px 20px 20px 20px;
+    margin-left:    20px;
+    
+    text-align:    center;
+    
+   /*background-image:   url(images/cocktail.gif);
+    background-repeat: repeat-x;  /* tie the image only in the horizontal direction */ 
+    background: url(images/cocktail.gif) repeat-x;
+}
+
+#footer {
+    font-size: 80%;
+    text-align: center;
+    line-height: normal;
+    margin-top: 30px
+}
+
+.cd {
+    font-style: italic;
+}
+
+.artist {
+    font-weight: bold;
+}
+
+/*style <a> elements
+unvisited, visited, and hover
+*/
+a:link {
+    color: green;
+}
+
+a:visited {
+    color: red;
+}
+
+a:hover {
+    color: yellow;
+}
+

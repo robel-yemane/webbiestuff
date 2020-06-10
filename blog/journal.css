@@ -1,0 +1,40 @@
+@font-face {
+
+    font-family: "Emblema One";
+        src: url("http://wickedlysmart.com/hfhtmlcss/chapter8/journal/EmblemaOne-Regular.woff"),
+             url("http://wickedlysmart.com/hfhtmlcss/chapter8/journal/EmblemaOne-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
+       url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
+}
+body {
+    background-color: #ecfad7d9;
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    font-size: normal;
+    font-style: oblique;
+}
+
+h1, h2, h3 {
+    color: #cc6600;
+    border-bottom: thin dotted #888888;
+}
+
+h1 {
+    font-family:  "Chelsea Market", "Emblema One", "Open Sans", sans-serif;
+    font-size: 200%;
+    font-style: italic;
+}
+
+h2 {
+    font-size: 120%;
+    font-weight: normal;
+    font-style: normal;
+}
+
+blockquote.kipling { 
+    font-family: cursive;
+    font-style: italic;
+}
