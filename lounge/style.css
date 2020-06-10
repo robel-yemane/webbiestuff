@@ -19,7 +19,6 @@ h2 {
     font-size: 120%
 }
 
-
 #elixirs h2 {
     color: black;
 }
@@ -66,6 +65,7 @@ h2 {
    /*background-image:   url(images/cocktail.gif);
     background-repeat: repeat-x;  /* tie the image only in the horizontal direction */ 
     background: url(images/cocktail.gif) repeat-x;
+    float: right;
 }
 
 #footer {
@@ -86,15 +86,34 @@ h2 {
 /*style <a> elements
 unvisited, visited, and hover
 */
-a:link {
+#elixirs a:link {
     color: green;
 }
 
-a:visited {
-    color: red;
+#elixirs a:visited {
+    color: #d98026;
 }
 
-a:hover {
+#elixirs a:hover {
+    background: #f88333;
     color: yellow;
 }
+
+a:link {
+    color: #007e7e;
+}
+
+a:visited {
+    color: #333333;
+}
+
+
+a:focus {
+    color: brown;
+}
+
+a:active {
+    color: violet;
+}
+
 
