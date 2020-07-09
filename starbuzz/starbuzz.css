@@ -10,12 +10,21 @@ body {
     margin:           0px;
     height:           108px;
 }
+#mypic {
+    float: left;
+    padding: 20px;
+    border-style: ridge ;
+    margin: 10px;
+}
 
 #main {
      background: #efe5d0 url(images/background.gif) top left;
     font-size: 105%;
     padding:   15px;
-    margin:    0px 330px 10px 10px;
+/*     margin:    0px 330px 10px 10px; */
+    margin:    0px 10px 10px 10px;
+    width: 420px;
+    float:left;
    
     
 }
@@ -23,9 +32,13 @@ body {
     background: #efe5d0 url(images/background.gif) bottom right;
     font-size : 105%;
     padding: 15px;
-    margin: 0px 10px 10px 10px;
+/*  one way of floating*/
+    /*     margin: 0px 330px 10px 10px;
     width: 280px;
     float: right;
+ */
+/*      another way of floating that would work on phones as well*/
+    margin: 0px 10px 10px 470px;
 }
 #footer {
     background-color: #675c47;
@@ -34,6 +47,8 @@ body {
     padding: 15px;
     margin: 10px;
     font-size: 90%;
+    /*no floating content is allowed on the right of the footer.*/
+    clear: left; 
 }
 
 h1 {
@@ -56,6 +71,6 @@ a:visited {
     color: #b65c47;
     text-decoration: none;
     border-bottom: thin dotted #b65c47;
-    }
+}
 
 
