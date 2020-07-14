@@ -50,7 +50,12 @@ body {
     /*no floating content is allowed on the right of the footer.*/
     clear: left; 
 }
-
+ #allcontent {
+ width: 800px;
+ padding-top: 5px;
+ padding-bottom: 5px;
+ background-color: #675c47;
+}
 h1 {
     font-size: 120%;
     color: #954b4b;
