@@ -10,7 +10,15 @@ body {
   margin:           10px 10px 0px 10px;
   height:           108px;
 }
-
+#headerSlogan{
+  float: right;
+}
+#award{
+  position: absolute;
+  top: 30px;
+  left: 365px;
+  z-index: 0;
+}
 #main {
   display: table-cell;
   background:       #efe5d0 url(images/background.gif) top left;
@@ -19,7 +27,15 @@ body {
 /*   margin:           0px 10px 10px 10px; */
   vertical-align: top;
 }
+#coupon{
+  position: absolute;
+  top: 350px;
+  left: -90px
+}
 
+#coupon a, img {
+  border: none;
+}
 #sidebar {
   display: table-cell;
   background:       #efe5d0 url(images/background.gif) bottom right;
@@ -27,6 +43,13 @@ body {
   padding:          15px;
   vertical-align: top;
   /*   margin:           0px 10px 10px 10px; */
+}
+#drinks {
+  display: table-cell;
+  background: #efe5d0;
+  width: 20%;
+  padding: 15px;
+  vertical-align: top;
 }
 
 #footer {
