@@ -27,15 +27,7 @@ body {
 /*   margin:           0px 10px 10px 10px; */
   vertical-align: top;
 }
-#coupon{
-  position: absolute;
-  top: 350px;
-  left: -90px
-}
 
-#coupon a, img {
-  border: none;
-}
 #sidebar {
   display: table-cell;
   background:       #efe5d0 url(images/background.gif) bottom right;
@@ -50,6 +42,17 @@ body {
   width: 20%;
   padding: 15px;
   vertical-align: top;
+  position: relative;
+}
+
+#coupon{
+  position: absolute;
+  left: -90px;
+  padding-bottom: 30px;
+}
+
+#coupon a, img {
+  border: none;
 }
 
 #footer {
