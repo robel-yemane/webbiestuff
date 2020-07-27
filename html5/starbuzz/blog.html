@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <title>Starbuzz Coffee - Blog</title>
@@ -49,16 +49,27 @@
     <article>
         <header>
             <h1>Starbuzz launches...Tweet Sip</h1>
-            <time datetime="2020-07-24">24/07/2020</time>
+            
+                       <time datetime="2020-07-24">24/07/2020</time>
         </header>
-        <p>
-            As promised, today I'm proud to announce that Starbuzz
+                <p  
+                    <label for="file">Downloading progress:</label>
+                    <progress id="file" value="32" max="100"> 32% </progress>
+                </p>
+               <p>
+            <mark>As promised, today I'm </mark> proud to announce that Starbuzz
             Coffee is launching the Tweet Sip cup, a special Starbuzz
             Coffee cup that tweets each time you take a sip! Check
             out my video of our new invention.
         </p>
-        <video controls autoplay width="512" height="288"
-src="video/tweetsip.mp4" poster="images/poster.png" id="video">
+        <!-- use `source` to provide multiple options of vide formats for various web browsers.
+             For flash videos use `<object>` element instead of source.             
+        --!>
+        <video controls preload="auto" width="512" height="288" poster="images/poster.png" id="video">
+            <source src="video/tweetsip.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+            <source src="video/tweetsip.ogg" type='video/webm; codecs="vp8, vorbis"'>
+            <source src="video/tweetsip.webm" type='video/ogg; codecs="theora, vorbis"'>
+            <p>Sorry, your browser doesn't support the video element</p>
         </video>
     </article>
 	<article>
