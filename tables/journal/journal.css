@@ -33,11 +33,37 @@ td,th{
   border: thin dotted gray;
   padding: 5px;
   }
+th {
+ background-color: #cc6600; 
+}
+
+table table th {
+  background-color: white;
+}
 td.centre {
   text-align: center;
 }
 td.right{
   text-align: right;
+}
+/* tr:nth-child(2n+1) {
+  background-color:  #fcba7a;
+} */
+/*OR*/
+table table tr:nth-child(2n){
+  background-color: lightskyblue;
+}
+table table tr:nth-child(2n+1){
+  background-color: lightgray;
+}
+.cellcolor {
+  background-color:  #fcba7a;
+}
+li {
+  list-style: url(images/backpack.gif);
+  padding-top: 5px;
+  margin-left: 20px;
+  list-style-position: outside;
 }
 caption {
   font-style: italic;
